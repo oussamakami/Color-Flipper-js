@@ -27,7 +27,6 @@ h1 {
   padding: 8px 15px;
   border-radius: 8px;
   font-size: 1.4rem;
-  box-shadow: 5px 5px 3px #5b5b5b;
 }
 h1 #HexVal {
   color: var(--secColor);
