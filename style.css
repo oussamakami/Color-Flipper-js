@@ -31,7 +31,7 @@ h1 {
 h1 #HexVal {
   color: var(--secColor);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #CenterBox button {
   margin-top: 30px;
@@ -43,9 +43,27 @@ h1 #HexVal {
   color: #fff;
   cursor: pointer;
   border-radius: 8px;
-  transition: .2s all ease;
+  transition: 0.2s all ease;
 }
 #CenterBox > button:hover {
   border: 3px solid var(--secColor);
   color: var(--secColor);
+}
+#Notification {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -8.5vh;
+  background: var(--primColor);
+  width: max-content;
+  margin: auto;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  transition: 1s all ease;
+}
+#ValueHolder {
+  position: absolute;
+  left: -100vw;
 }
