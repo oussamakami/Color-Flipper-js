@@ -27,6 +27,8 @@ function updateUI(HEXVAL) {
 
 function updateBackgroundColor(HEXVAL) {
     document.body.style.backgroundColor = HEXVAL;
+    document.getElementById("themeColor").content = HEXVAL;
+
 }
 function updateHexCode(HEXVAL) {
     document.getElementById("HexVal").innerText = HEXVAL;
