@@ -74,4 +74,7 @@ h1 #HexVal {
   #CenterBox button {
     font-size: 2rem;
   }
+  #Notification {
+    font-size: 1.8rem;
+  }
 }
